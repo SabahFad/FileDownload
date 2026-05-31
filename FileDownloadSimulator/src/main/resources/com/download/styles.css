@@ -1,0 +1,128 @@
+/* ===== Root / Background ===== */
+.root-pane {
+    -fx-background-color: #1a1d2e;
+}
+
+/* ===== Title ===== */
+.title-label {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e0e6f8;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* ===== File Cards ===== */
+.file-card {
+    -fx-background-color: #252840;
+    -fx-background-radius: 10;
+    -fx-padding: 12 16 12 16;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 8, 0, 0, 3);
+}
+
+.file-name-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #c9d4f5;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* ===== Progress Bars ===== */
+.progress-bar .track {
+    -fx-background-color: #3a3d5c;
+    -fx-background-radius: 6;
+}
+
+.progress-bar-blue .bar {
+    -fx-background-color: linear-gradient(to right, #4a9eff, #7fc3ff);
+    -fx-background-radius: 6;
+    -fx-background-insets: 2;
+}
+
+.progress-bar-green .bar {
+    -fx-background-color: linear-gradient(to right, #3ecf8e, #7eedc0);
+    -fx-background-radius: 6;
+    -fx-background-insets: 2;
+}
+
+.progress-bar-orange .bar {
+    -fx-background-color: linear-gradient(to right, #ff7e4b, #ffb38a);
+    -fx-background-radius: 6;
+    -fx-background-insets: 2;
+}
+
+/* ===== Percent Labels ===== */
+.percent-label {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #a0aad0;
+    -fx-min-width: 42px;
+    -fx-font-family: "Consolas", monospace;
+}
+
+/* ===== Status Labels ===== */
+.status-label {
+    -fx-font-size: 12px;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.status-idle {
+    -fx-text-fill: #6b728e;
+}
+
+.status-downloading {
+    -fx-text-fill: #4a9eff;
+    -fx-font-weight: bold;
+}
+
+.status-done {
+    -fx-text-fill: #3ecf8e;
+    -fx-font-weight: bold;
+}
+
+/* ===== Buttons ===== */
+.btn-start {
+    -fx-background-color: linear-gradient(to bottom, #4a9eff, #2d7de0);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(74,158,255,0.5), 10, 0, 0, 3);
+}
+
+.btn-start:hover {
+    -fx-background-color: linear-gradient(to bottom, #6ab4ff, #4a9eff);
+}
+
+.btn-start:pressed {
+    -fx-background-color: #2d7de0;
+    -fx-effect: none;
+}
+
+.btn-start:disabled {
+    -fx-opacity: 0.5;
+    -fx-cursor: default;
+}
+
+.btn-reset {
+    -fx-background-color: linear-gradient(to bottom, #4e5275, #3a3d5c);
+    -fx-text-fill: #c9d4f5;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.btn-reset:hover {
+    -fx-background-color: linear-gradient(to bottom, #5e6285, #4a4d6c);
+}
+
+.btn-reset:disabled {
+    -fx-opacity: 0.4;
+    -fx-cursor: default;
+}
+
+/* ===== Separator ===== */
+.separator .line {
+    -fx-border-color: #3a3d5c;
+}
